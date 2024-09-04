@@ -11,36 +11,36 @@ const About = () => {
   const { isPageActive } = useAppContext();
 
   return (
-    <article className={`${!isPageActive ? "about active" : "about"}`}>
+    <article className={!isPageActive ? "about active" : "about"}>
       <header>
         <FadeIn>
-          <h2 className='h2 article-title'>Who am I?</h2>
+          <h2 className="h2 article-title">Who am I?</h2>
         </FadeIn>
       </header>
-      <section className='about-text'>
+      <section className="about-text">
         <FadeIn>
           <p>
-            Hi there👋! I'm Rasheed, an experienced Mobile Application Developer with over 5 years of experience in crafting high-performance mobile applications using Flutter. My journey in tech is driven by a passion for creating intuitive, user-friendly, and impactful solutions that address real-world challenges.
+          Hi there👋! I'm Rasheed, a passionate and innovative software engineer with over 5 years of experience. My journey in the tech world is driven by a relentless curiosity and a desire to solve real-world problems. For the past 4 years, I've specialized in Full-Stack Mobile Engineering, leveraging tools like Flutter, Node.js, MongoDB and Firebase to develop and deploy robust mobile applications that provide seamless user experiences and solve real-world challenges.
           </p>
         </FadeIn>
         <FadeIn>
           <p>
-            Throughout my career, I've led and contributed to the development of scalable, maintainable, and performant mobile apps across diverse industries. I specialize in state management using GETX, Riverpod, and Bloc, and I'm proficient in integrating backend APIs, ensuring seamless user experiences on both Android and iOS platforms.
+            While my core expertise lies in Full-Stack Mobile Engineering, I'm also skilled in AI and Machine learning. I enjoy creating intuitive and user-friendly AI-powered applications that provide seamless experiences on both Android and iOS platforms.
           </p>
         </FadeIn>
         <FadeIn>
           <p>
-            My expertise extends beyond mobile development into AI/ML, where I leverage tools like TensorFlow and OpenAI to develop intelligent systems. Projects like NotchAI and INOP Learn, where I integrated AI models into mobile applications, highlight my ability to blend machine learning with app development to create innovative solutions.
+            In addition to my technical skills, I have a knack for technical writing, which I engage in during my free time. Using tools like Postman and Swagger UI, I craft clear and SEO-optimized documentation that aids both developers and end-users.
           </p>
         </FadeIn>
         <FadeIn>
           <p>
-            In addition to technical skills, I'm passionate about mentoring and knowledge sharing. As a Technical Mentor and Flutter Developer Team Lead, I've guided teams and students, fostering collaborative environments and driving technical growth within the community.
+            Beyond the realm of technology, I have a deep love for critical and logical reasoning. I enjoy solving logical mathematical problems and often spend my leisure time engaged in these activities. Traveling is another passion of mine; exploring new places and meeting new people has helped in fueling my creativity and also broadened my perspective, allowing me to approach challenges with a fresh outlook.
           </p>
         </FadeIn>
         <FadeIn>
           <p>
-            My journey in tech is a blend of professional expertise and personal passions, including logical reasoning and traveling, which fuels my creativity and broadens my perspective. Let's connect and explore how we can innovate together to create impactful solutions!
+            My journey in tech is a blend of professional expertise and personal passions, all driven by a desire to push boundaries and create impactful solutions. Let's connect and see how we can innovate together!
           </p>
         </FadeIn>
       </section>

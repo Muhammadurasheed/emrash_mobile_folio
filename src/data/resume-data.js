@@ -16,20 +16,20 @@ export const education = [
 ];
 
 export const experience = [
-  {
-    id: 1,
-    title: "Flutter Developer Team Lead",
-    company: "Google Developer Student Clubs (GDSC) University of Ibadan",
-    entry_year: "August 2024",
-    final_year: "Present",
-    text: `• Led a team of student developers in building and deploying Flutter-based applications, mentoring junior members and fostering a collaborative development environment.
-• Spearheaded multiple mobile app projects, guiding the team through the full development lifecycle from ideation to deployment, resulting in several successful app launches that saw user adoption rates increase by 30%.
-• Conducted workshops and training sessions on Flutter and state management (GETX, Riverpod, Bloc), significantly enhancing the team’s technical skills and project efficiency, contributing to a 50% reduction in development time for key features.
-• Actively contributed to the GDSC community by sharing best practices, presenting at meetups, and collaborating with other student leads to promote knowledge sharing and technical growth, which resulted in a 25% increase in club membership.`,
-  },
+//   {
+//     id: 1,
+//     title: "Flutter Developer Team Lead",
+//     company: "Google Developer Student Clubs (GDSC) University of Ibadan",
+//     entry_year: "August 2024",
+//     final_year: "Present",
+//     text: `• Led a team of student developers in building and deploying Flutter-based applications, mentoring junior members and fostering a collaborative development environment.
+// • Spearheaded multiple mobile app projects, guiding the team through the full development lifecycle from ideation to deployment, resulting in several successful app launches that saw user adoption rates increase by 30%.
+// • Conducted workshops and training sessions on Flutter and state management (GETX, Riverpod, Bloc), significantly enhancing the team’s technical skills and project efficiency, contributing to a 50% reduction in development time for key features.
+// • Actively contributed to the GDSC community by sharing best practices, presenting at meetups, and collaborating with other student leads to promote knowledge sharing and technical growth, which resulted in a 25% increase in club membership.`,
+//   },
   {
     id: 2,
-    title: "Contract Mobile Developer",
+    title: "Contract Full-Stack Mobile Engineer",
     company: "Revive Digital Solution",
     entry_year: "May 2023",
     final_year: "July 2023",
@@ -42,7 +42,7 @@ export const experience = [
   },
   {
     id: 3,
-    title: "Mobile Developer",
+    title: "Software Engineer",
     company: "Nwaste, Lagos",
     entry_year: "Feb 2022",
     final_year: "Nov 2022",
@@ -69,8 +69,8 @@ export const skills = [
     progress: "90",
   },
   {
-    skill: "State Management (GETX, Riverpod, Bloc)",
-    progress: "88",
+    skill: "State Management (GETX, Riverpod, Bloc, Provider)",
+    progress: "90",
   },
   {
     skill: "Backend Integration (Node.js, GraphQL, Firebase)",
@@ -93,7 +93,7 @@ export const skills = [
     progress: "83",
   },
   {
-    skill: "AI/ML Tools (TensorFlow, PyTorch, OpenAI)",
+    skill: "AI/ML Tools (TensorFlow, LangChain, NLP)",
     progress: "87",
   },
   {
